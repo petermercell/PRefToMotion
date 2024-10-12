@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.11)
 project(PRefToMotion)
 
 if (NOT DEFINED NUKE_VERSION)
-    set(NUKE_VERSION 15.1v1)
+    set(NUKE_VERSION 15.1v3)
 endif()
 
 # Update the C++ standard to 17
