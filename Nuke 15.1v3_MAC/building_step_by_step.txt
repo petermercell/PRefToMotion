@@ -2,5 +2,5 @@ cd /Users/g/Desktop/PRefToMotion
 rm -rf build
 mkdir build
 cd build
-cmake .. -DNUKE_VERSION=15.1v1 -DCMAKE_INSTALL_PREFIX=~/.nuke -DCMAKE_BUILD_TYPE=DEBUG -DCOVERAGE=ON
+cmake .. -DNUKE_VERSION=15.1v3 -DCMAKE_INSTALL_PREFIX=~/.nuke -DCMAKE_BUILD_TYPE=DEBUG -DCOVERAGE=ON
 make install
