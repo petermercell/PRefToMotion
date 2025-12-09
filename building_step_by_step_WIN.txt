@@ -1,0 +1,9 @@
+cd C:\Users\WORKSTATION\Desktop\PRefToMotion\WIN\PRefToMotion_16.0v6
+
+rmdir /s /q build
+mkdir build
+cd build
+
+cmake .. -G "Visual Studio 17 2022" -A x64 -DNUKE_VERSION=16.0v6 -DCMAKE_INSTALL_PREFIX=%USERPROFILE%\.nuke
+
+cmake --build . --config Release --verbose

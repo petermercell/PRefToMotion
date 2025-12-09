@@ -1,0 +1,15 @@
+cd /Users/g/Downloads/000_LETS_GO-3/PRefToMotion/MAC/PRefToMotion_16.0v6
+
+rm -rf build && mkdir build && cd build
+
+cmake .. -DNUKE_VERSION=16.0v6 -DCMAKE_INSTALL_PREFIX=~/.nuke
+
+
+make
+
+
+/////
+
+cd /Applications/Nuke16.0v4/Nuke16.0v4.app/Contents/MacOS
+
+./Nuke16.0
